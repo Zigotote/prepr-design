@@ -33,7 +33,7 @@ export default {
           title: "Cybersecurity Talent Alliance Lab",
           img: require("../assets/labs/lab2.png"),
           descr:
-            "Cybersecurity is increasingly driving innovation and economic activity in Canada. It already contributes $1.7..."
+            "Cybersecurity is increasingly driving innovation and economic activity in..."
         }
       ]
     };

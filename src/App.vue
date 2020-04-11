@@ -79,7 +79,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .font-black {
   color: black;
 }
@@ -97,7 +97,6 @@ export default {};
 }
 
 #footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
