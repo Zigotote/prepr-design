@@ -62,6 +62,16 @@
     </b-navbar>
     <img src="./assets/ban.png" alt="Prepr motto" id="motto" />
     <router-view />
+    <b-container id="footer" fluid>
+      <b-row class="justify-content-md-center">
+        <b-col md="auto">
+          Privacy policy
+        </b-col>
+        <b-col md="auto">
+          Term of use
+        </b-col>
+      </b-row>
+    </b-container>
   </b-container>
 </template>
 
@@ -84,5 +94,14 @@ export default {};
 
 #user-img {
   height: 65px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
 }
 </style>
