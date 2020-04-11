@@ -4,6 +4,7 @@
 .btn-secondary:visited {
   background-color: rgba(174, 176, 174, 0.4) !important;
   border-color: rgba(174, 176, 174, 0.4) !important;
+  color: black;
 }
 
 .btn-primary,
@@ -12,4 +13,22 @@
 .btn-primary:visited {
   background-color: #99ce80 !important;
   border-color: #99ce80 !important;
+  color: black;
+}
+
+html {
+  background-color: #f5faf4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-color {
+  background-color: #f5faf4;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.title {
+  font-size: 2rem;
 }

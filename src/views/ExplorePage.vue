@@ -1,12 +1,17 @@
 <template>
-  <div>Explore page</div>
+  <div class="bg-color">
+    <challenges />
+  </div>
 </template>
 
 <script>
+import Challenges from "../components/Challenges";
 export default {
-  name: "ExplorePage"
+  name: "ExplorePage",
+  components: {
+    Challenges
+  }
 };
 </script>
 
-<style>
-</style>
+<style></style>
