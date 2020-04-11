@@ -2,7 +2,7 @@
 
 ## View design model
 
-https://oceane-b.invisionapp.com/prototype/ck8vlzurm004vc101jdllw404/play
+https://oceane-b.invisionapp.com/prototype/ck8vprib3004qb9013qf5zzvo/play
 
 ## Project setup
 

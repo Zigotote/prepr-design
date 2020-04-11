@@ -1,10 +1,44 @@
 <template>
   <div>
     <b-navbar>
-      <router-link to="/">Explore</router-link>
-      <router-link to="/projects">Projects</router-link>
-      <router-link to="/challenges">Challenges</router-link>
-      <router-link to="/labs">Labs</router-link>
+      <b-navbar-brand href="/">
+        <img src="./assets/logo.png" />
+      </b-navbar-brand>
+      <b-container fluid>
+        <b-row>
+          <b-col>
+            <b-button size="lg">
+              <router-link to="/" class="font-black"> Explore </router-link>
+            </b-button>
+          </b-col>
+          <b-col>
+            <b-button size="lg">
+              <router-link to="/labs" class="font-black"> Labs </router-link>
+            </b-button>
+          </b-col>
+          <b-col>
+            <b-button size="lg">
+              <router-link to="/organisations" class="font-black">
+                Organisations
+              </router-link>
+            </b-button>
+          </b-col>
+          <b-col>
+            <b-button size="lg">
+              <router-link to="/challenges" class="font-black">
+                Challenges
+              </router-link>
+            </b-button>
+          </b-col>
+          <b-col>
+            <b-button size="lg">
+              <router-link to="resources" class="font-black">
+                Resources
+              </router-link>
+            </b-button>
+          </b-col>
+        </b-row>
+      </b-container>
     </b-navbar>
     <router-view />
   </div>
@@ -14,4 +48,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.font-black {
+  color: black;
+}
+</style>
