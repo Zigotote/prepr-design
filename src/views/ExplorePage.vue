@@ -1,15 +1,18 @@
 <template>
   <div class="bg-color">
-    <challenges />
+    <challenges-list class="m-5" />
+    <labs-list class="m-5" />
   </div>
 </template>
 
 <script>
-import Challenges from "../components/Challenges";
+import ChallengesList from "../components/ChallengesList";
+import LabsList from "../components/LabsList";
 export default {
   name: "ExplorePage",
   components: {
-    Challenges
+    ChallengesList,
+    LabsList
   }
 };
 </script>

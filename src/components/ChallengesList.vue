@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "Challenges",
+  name: "ChallengesList",
   data() {
     return {
       challenges: [
@@ -46,7 +46,7 @@ export default {
           title: "Recycled Plastic Ceiling Tiles",
           img: require("../assets/challenges/challenge3.png"),
           descr:
-            "The problem we are facing is global and departmental. Globally, there is an accumulation of plastic with the..."
+            "The problem we are facing is global and departmental. Globally, there is an..."
         },
         {
           title: "Diverting End of Life Vehicle Plastics from Landfills",
