@@ -53,10 +53,7 @@
                   </b-list-group-item>
                   <b-list-group-item class="d-flex align-items-center">
                     <img src="./assets/menu-icon/projects.png" class="icon" />
-                    <router-link
-                      to="/challenges/front-end-developer-work-challenge"
-                      class="font-black"
-                    >
+                    <router-link to="/projects" class="font-black">
                       <div class="ml-2">My projects</div>
                     </router-link>
                   </b-list-group-item>
